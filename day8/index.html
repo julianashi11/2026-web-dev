@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<style>
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  main {
+    display: flex;
+    gap: 1rem;
+  }
+
+  section {
+    flex-grow: 1;
+    background-color: lightblue;
+    font-family:'Courier New', Courier, monospace
+  }
+
+  aside {
+    max-width: 350px; 
+    background-color: lightyellow;
+    font-family:'Courier New', Courier, monospace
+  }
+
+  footer {
+    width: 100%;
+  }
+</style>
+
+<body>
+    <header>
+  <span>My Favorite Food!!</span>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h1>Dish:</h1>
+    <p>Here is a compiled list of my fav eats</p>
+    <li>
+      Xiaolongbao
+    </li>
+    <li>
+      Sushi
+    </li>
+    <li>
+      Yakitori
+    </li>
+    <li>
+      Hotpot
+    </li>
+    <li>
+      Steak
+    </li>
+    <li>
+      Carbonara
+    </li>
+  </section>
+
+  <aside>
+    <h1>Pics</h1>
+    <p>Yummy</p>
+    <img src = "xiaolongbao.jpeg">
+    <img src = "sushi.jpeg" width = "300" >
+    <img src = "yakitori.jpeg">
+    <img src = "hotpot.jpeg">
+    <img src = "carbonara.jpeg">
+  </aside>
+</main>
+
+<footer>
+  <p>Try these out sometime!</p>
+</footer>
+
+</body>
+</html>
